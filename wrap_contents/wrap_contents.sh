@@ -5,8 +5,6 @@
  output=$3
  
  header="$name"_header.html
- footer="$name"_footer.html
- 
- cd chart_example 
+ footer="$name"_footer.html 
 
  cat "$header" "$middle" "$footer" > "$output"
